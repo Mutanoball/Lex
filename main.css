@@ -1,0 +1,43 @@
+@font-face {
+     font-family: GloberThinFree;
+     src: url(Glober.otf);
+}
+@font-face {
+     font-family: DaxlinePro-Regular;
+     src: url(DaxlinePro-Regular.otf);
+}
+@font-face {
+     font-family: DaxlinePro-Thin;
+     src: url(DaxlinePro-Thin.otf);
+}
+@font-face {
+     font-family: Kinescope;
+     src: url(Kinescope.otf);
+}
+body{
+margin: 0;
+padding: 0;
+font-family: GloberThinFree;
+}
+.head{
+	width: 1920px;
+	height: 120px;
+	background-color: #f5f5dc;
+	box-shadow: inset 0px 2px 6px rgba(122,122,122,0.3);
+}
+.logo{
+	padding: 40px 0 0 150px;
+	
+}
+.lex{
+	font: 48px Kinescope;
+	font-weight: 600;
+	padding-bottom: 0;
+}
+.yk{
+	margin-top: -6px;
+	margin-left: -5px;
+	font-size: 10px;
+	letter-spacing: 1.3px;
+	color: grey;
+}
