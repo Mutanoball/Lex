@@ -18,21 +18,25 @@ body{
 margin: 0;
 padding: 0;
 font-family: GloberThinFree;
+
 }
 .head{
 	width: 1920px;
 	height: 120px;
 	background-color: #f5f5dc;
 	box-shadow: inset 0px 2px 6px rgba(122,122,122,0.3);
+	display: flex;
 }
 .logo{
 	padding: 40px 0 0 150px;
+	width: 200px;
 	
 }
 .lex{
 	font: 48px Kinescope;
 	font-weight: 600;
 	padding-bottom: 0;
+
 }
 .yk{
 	margin-top: -6px;
@@ -40,4 +44,27 @@ font-family: GloberThinFree;
 	font-size: 10px;
 	letter-spacing: 1.3px;
 	color: grey;
+}
+.city
+{
+	width: 550px;
+	padding-left: 550px;
+}
+.city img{
+	padding-top: 10px;
+	width: 550px;
+	opacity: 0.7;
+}
+.offer {
+	padding: 40px 150px;
+
+}
+.phone {
+	font-size: 18px;
+	letter-spacing: 1.3px;
+	
+}
+.send{
+	padding-top: 6px;
+	letter-spacing: 1.05px;
 }

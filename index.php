@@ -17,6 +17,17 @@
                     ЮРИДИЧЕСКАЯ КОМПАНИЯ
                 </div>
             </div>
+            <div class="city">
+                <img src="city.png">
+            </div>
+            <div class="offer">
+                <div class="phone">
+                    8(922) 829-76-60
+                </div>
+                <div class="send">
+                    ОСТАВИТЬ ЗАЯВКУ
+                </div>
+
 
 		</div>
 
