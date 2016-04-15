@@ -59,16 +59,34 @@
             </div>
         </div>
         <div class="ground">
-            <div class "l_col">
-                <div class="logo">
-                    <div class="lex">
+            
+                <div class="bot-logo">
+                    <div class="bot-lex">
                         Lex Fori
                     </div>
-                    <div class="yk">
+                    <div class="bot-yk">
                         ЮРИДИЧЕСКАЯ КОМПАНИЯ
                     </div>
+                    <div class="mutano">
+                        2016 Designed by<span> Mutano</span>
+                    </div>
                 </div>
-            </div>
+                <div class="r-col">
+                    <div>
+                        +7(3532) 51-70-20
+                    </div>
+                    <div>
+                        +7(3532) 27-82-86
+                    </div>
+                    <div>
+                        yurist-56@bk.ru
+                    </div>
+                    <div>
+                        Оренбург, переулок Матросский 2, офис 403
+                    </div>
+                </div>
+                
+            
         </div>
 
 

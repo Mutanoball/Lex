@@ -117,8 +117,47 @@ background-color: #f0f0e8;
 	width: 1920px;
 	height: 280px;
 	background-color: #1b2f30;
+	display:flex;
 }
-.l_col {
-	width: 300px;
-	border: #fff solid 2px;
+
+.bot-logo{
+	padding: 60px 0 0 240px;
+	width: 200px;
+}
+.bot-lex{
+	font: 60px Kinescope;
+	font-weight: 500;
+	padding-bottom: 0;
+}
+.bot-yk{
+	margin-top: -7px;
+	margin-left: -5px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: grey;
+	
+	 
+}
+.mutano{
+	margin-top: 80px;
+	margin-left: -5px;
+	font-size: 12px;
+}
+.mutano > span{
+	font-family: DaxlinePro-Regular;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.r-col{
+	margin-left: 900px;
+	margin-top: 76px;
+
+}
+.r-col > div{
+	text-align: right;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.r-col > div:last-of-type{
+	font-size: 13px;
 }
