@@ -14,13 +14,15 @@
      font-family: Kinescope;
      src: url(Kinescope.otf);
 }
+@font-face {
+	font-family: 'Conv_Glober';
+	src: url('fonts/Glober.svg');
+}
 body{
 margin: 0;
 padding: 0;
 font-family: GloberThinFree;
--webkit-font-smoothing: antialiased;
 }
-
 .head{
 	width: 1920px;
 	height: 120px;
@@ -52,8 +54,8 @@ font-family: GloberThinFree;
 	padding-left: 550px;
 }
 .city img{
-	padding-top: 10px;
-	width: 550px;
+	padding-top: 15px;
+	width: 500px;
 	opacity: 0.7;
 }
 .offer {
@@ -63,12 +65,20 @@ font-family: GloberThinFree;
 .phone {
 	font-size: 18px;
 	letter-spacing: 1.3px;
-	text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
-                1px 1px 1px rgba(255,255,255, 0.2), 
-                1px 1px 1px rgba(0,0,0, 0.7);
-	
-}
+	}
 .send{
 	padding-top: 6px;
 	letter-spacing: 1.05px;
+}
+.menu{
+	width: 1920px;
+	height: 40px;
+	background-color: #b6a48b;
+	display: flex;
+	padding: 0 450px;
+
+}
+.button{
+	padding: 10px 40px;
+	font-size: 20px;
 }

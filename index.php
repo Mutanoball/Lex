@@ -27,9 +27,28 @@
                 <div class="send">
                     ОСТАВИТЬ ЗАЯВКУ
                 </div>
-
-
-		</div>
+            </div>
+    	</div>
+        <div class="menu">
+            <div class="button">
+                новости
+            </div>
+            <div class="button">
+                о нас
+            </div>
+            <div class="button">
+                услуги
+            </div>
+            <div class="button">
+                прайс
+            </div>
+            <div class="button">
+                документы
+            </div>
+            <div class="button">
+                вопрос-ответ
+            </div>
+        </div>
 
 
 
