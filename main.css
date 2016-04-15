@@ -83,7 +83,8 @@ color:#3c301f;
 	letter-spacing: 1.3px;
 	}
 .send{
-	padding-top: 6px;
+	margin-left: -1px;
+	padding-top: 5px;
 	letter-spacing: 1.05px;
 	font-family: GloberSemibold;
 	color:#add19a;
