@@ -76,6 +76,7 @@ background-color: #f0f0e8;
 .send{
 	padding-top: 6px;
 	letter-spacing: 1.05px;
+
 }
 .menu{
 	width: 1020px;
@@ -93,7 +94,7 @@ background-color: #f0f0e8;
 	width: 1600px;
 	height: 650px;
 	background-color: #f5f5dc;
-	margin: 40px auto;
+	margin: 40px 160px;
 }
 .title{
 	width: 100%;
@@ -150,7 +151,7 @@ background-color: #f0f0e8;
 }
 .r-col{
 	margin-left: 900px;
-	margin-top: 76px;
+	margin-top: 74px;
 
 }
 .r-col > div{
