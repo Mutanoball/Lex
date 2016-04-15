@@ -9,47 +9,53 @@
     
     <body>
 		<div class="head">
-			<div class="logo">
-                <div class="lex">
-                    Lex Fori
+    		<div class ="container">
+            	<div class="logo">
+                    <div class="lex">
+                        Lex Fori
+                    </div>
+                    <div class="yk">
+                        ЮРИДИЧЕСКАЯ КОМПАНИЯ
+                    </div>
                 </div>
-                <div class="yk">
-                    ЮРИДИЧЕСКАЯ КОМПАНИЯ
+                <div class="city">
+                    <img src="city.png">
                 </div>
-            </div>
-            <div class="city">
-                <img src="city.png">
-            </div>
-            <div class="offer">
-                <div class="phone">
-                    8(922) 829-76-60
-                </div>
-                <div class="send">
-                    ОСТАВИТЬ ЗАЯВКУ
+                <div class="offer">
+                    <div class="phone">
+                        8(922) 829-76-60
+                    </div>
+                    <div class="send">
+                        ОСТАВИТЬ ЗАЯВКУ
+                    </div>
                 </div>
             </div>
     	</div>
-        <div class="menu">
-            <div class="button">
-                новости
-            </div>
-            <div class="button">
-                о нас
-            </div>
-            <div class="button">
-                услуги
-            </div>
-            <div class="button">
-                прайс
-            </div>
-            <div class="button">
-                документы
-            </div>
-            <div class="button">
-                вопрос-ответ
+       <div class="menu">
+            <div class="container">
+                <div class="menu-container">
+                    <div class="button">
+                        новости
+                    </div>
+                    <div class="button">
+                        о нас
+                    </div>
+                    <div class="button">
+                        услуги
+                    </div>
+                    <div class="button">
+                        прайс
+                    </div>
+                    <div class="button">
+                        документы
+                    </div>
+                    <div class="button">
+                        вопрос-ответ
+                    </div>
+                </div>    
             </div>
         </div>
-        <div class="content news">
+ <!--        <div class="content news">
             <div class="title">
                 новости
             </div>
@@ -88,7 +94,7 @@
                 
             
         </div>
-
+-->
 
 
 
