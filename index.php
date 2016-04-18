@@ -34,24 +34,24 @@
        <div class="menu">
             <div class="container">
                 <div class="menu-container">
-                    <div class="button">
+                    <a href="index.php" class="button">
                         новости
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a href="index.php" class="button">
                         о нас
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a href="services.php" class="button">
                         услуги
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a href="price.php" class="button">
                         прайс
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a href="index.php" class="button">
                         документы
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a href="index.php" class="button">
                         вопрос-ответ
-                    </div>
+                    </a>
                 </div>    
             </div>
         </div>
