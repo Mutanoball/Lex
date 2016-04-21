@@ -264,35 +264,55 @@ white-space: nowrap;
 	line-height: 1.4;
 	
 }
+.r2-col > div {display: none;}
 .r2-col > span{
 	font-family:GloberSemibold; 
+	position: absolute;
+}
+
+@keyframes meteorw {
+		0% {width:0; opacity: 0}
+		100% {width:200px; opacity: 1}
+}
+@keyframes meteorh {
+		0% {height:0; opacity: 0}
+		100% {height:120px; opacity: 1}
 }
 .meteor {
 	position: relative;
-	height: 2px;
-	background-image: -webkit-linear-gradient(left, #b6a48b, rgba(255,255,255,0));
+	
 }
 .m1 {
 	top: -20px;
 	left: -20px;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, #b6a48b, rgba(255,255,255,0));
 	width: 200px;
-	-webkit-transform: rotate(0deg);
+	animation: meteorw 0.5s 1;
+	
 }
 .m2{
-	top: 28px;
-	left: -70px;
-	width: 120px;
-	-webkit-transform: rotate(90deg);
+	top: -20px;
+	left: -20px;
+	width: 2px;
+	height: 120px;
+	background-image: -webkit-linear-gradient(top, #b6a48b, rgba(255,255,255,0));
+	animation: meteorh 0.5s 1;
 }
 .m3 {
-	top: 833px;
+	top: 720px;
 	left: -20px;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, #b6a48b, rgba(255,255,255,0));
 	width: 200px;
-	-webkit-transform: rotate(0deg);
+	animation: meteorw 0.5s 1;
+	
 }
 .m4 {
-	top: 780px;
-	left: -70px;
-	width: 120px;
-	-webkit-transform: rotate(-90deg);
+	top: 600px;
+	left: -20px;
+	width: 2px;
+	height: 120px;
+	background-image: -webkit-linear-gradient(bottom, #b6a48b, rgba(255,255,255,0));
+	animation: meteorh 0.5s 1;
 }
