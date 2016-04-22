@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="r2-col">
+                <div class="r3-col">
                     <div class="meteor m1"></div>
                     <div class="meteor m2"></div>
                     <div class="meteor m3"></div>
