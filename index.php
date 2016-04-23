@@ -46,7 +46,7 @@
                     <a href="price.php" class="button">
                         прайс
                     </a>
-                    <a href="index.php" class="button">
+                    <a href="docs.php" class="button">
                         документы
                     </a>
                     <a href="index.php" class="button">
