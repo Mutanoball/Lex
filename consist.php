@@ -22,5 +22,41 @@ Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam i
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl.
 Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero. Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris et nibh. Ut mattis ligula posuere velit. Nunc sagittis. Curabitur varius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue. Nam vulputate. Duis a quam non neque lobortis malesuada. Praesent euismod. Donec nulla augue, venenatis scelerisque, dapibus a, consequat at, leo. Pellentesque libero lectus, tristique ac, consectetuer sit amet, imperdiet ut, justo. Sed aliquam odio vitae tortor. Proin hendrerit tempus arcu. In hac habitasse platea dictumst. Suspendisse potenti. Vivamus vitae massa adipiscing est lacinia sodales. Donec metus massa, mollis vel, tempus placerat, vestibulum condimentum, ligula. Nunc lacus metus, posuere eget, lacinia eu, varius quis, libero. Aliquam nonummy adipiscing augue. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.";
 
-$consist[2]="empty";
+$consist[2]=$consist[1];
+$consist[101]="<p>Представление интересов в Арбитражном суде Оренбургской области.</p><br>
+                        <br>
+                            Адвокаты и юристы компании «ПАРТНЕР» имеют очень серьезный опыт в представлении интересов юридических лиц и индивидуальных предпринимателей в Арбитражных судах различных инстанций.
+                        <br>
+                            Мы работаем в интересах Доверителей как в г. Оренбурге, так и за пределами Оренбургской области.
+                        <br>
+                            Споры с участием хозяйствующих субъектов – коммерческих и некоммерческих организаций, индивидуальных предпринимателей, как правило, рассматриваются в Арбитражных судах.
+                        <br>
+                            Арбитражное судопроизводство осуществляется в соответствии с нормами Арбитражно – процессуального кодекса РФ.
+                        <br>
+                            В соответствии со ст. 1 АПК РФ правосудие в сфере предпринимательской и иной экономической деятельности осуществляется арбитражными судами в Российской Федерации, образованными в соответствии с КонституциейРоссийской Федерации и федеральным конституционным законом(далее - арбитражные суды), путем разрешения экономических споров и рассмотрения иных дел, отнесенных к их компетенции Арбитражным процессуальным кодексом Российской Федерации и другими федеральными законами, по правилам, установленным законодательством о судопроизводстве в арбитражных судах.
+                        <br>
+                            К подсудности Арбитражных судов относятся следующие дела:
+                        <br>
+                            - дела, возникающие из гражданских правоотношений;
+                        <br>
+                            - дела об оспаривании нормативных правовых актов, затрагивающих права и интересы заявителей в сфере предпринимательской и иной экономической деятельности;
+                        <br>
+                            - дела об оспаривании ненормативных правовых актов, решений и действий органов и должностных лиц, которыми затрагиваются права и законные интересы заявителя в сфере предпринимательской и иной экономический деятельности;
+                        <br>
+                            - дела о привлечении организаций и индивидуальных предпринимателей к административной ответственности и об оспаривании решений административных органов о привлечении к административной ответственности;
+                        <br>
+                            - дела об установлении юридических фактов;
+                        <br>
+                            - дела об оспаривании решений третейских судов и о выдаче исполнительных листов на принудительное исполнение решений третейских судов;
+                        <br>
+                            - дела о признании и приведении в исполнение решений иностранных судов и иностранных арбитражных решений;
+                        <br>
+                            - дела о несостоятельности (банкротстве);
+                        <br>
+                            - дела, возникающие из корпоративных споров;
+                        <br>
+                            - иные дела.
+                        <br>
+                            Нужно указать, что арбитражное судопроизводство несколько отличается от гражданского и административного судопроизводства.";
+
 ?>

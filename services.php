@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+   <?php 
+   $i=$_GET['i'];
+   if (!isset($i)){
+    $i=0;
+   }
+                 
+                    ?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -46,7 +53,7 @@
                     <a href="price.php" class="button">
                         прайс
                     </a>
-                    <a href="index.php" class="button">
+                    <a href="docs.php" class="button">
                         документы
                     </a>
                     <a href="index.php" class="button">
@@ -57,166 +64,424 @@
         </div>
        <div class="content services">
             <div class="title">
-                услуги юридическим лицам
+                услуги физическим лицам
             </div>
             <div class="inner-large">
                 <div class="l3-col">
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    <a href="/services.php?i=1" class= <?php 
+                                                    $current=1;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Юридическая консультация в Оренбурге
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=2" class= <?php 
+                                                    $current=2;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Составление искового заявления, жалоб на решения судов
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=3" class= <?php 
+                                                    $current=3;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class= <?php  echo "in-item".$suffix; 
+                                                    ?>>
+
+                            Представление интересов в суде
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=4" class= <?php 
+                                                    $current=4;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Представление интересов в государственных учреждениях
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=5" class= <?php 
+                                                    $current=5;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Оспаривание решений суда
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>                    
+                    <a href="/services.php?i=6" class= <?php 
+                                                    $current=6;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Исполнительное производство
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=7" class= <?php 
+                                                    $current=7;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Сопровождение сделок с недвижимостью
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=8" class= <?php 
+                                                    $current=8;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Автоюрист Оренбург
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=9" class= <?php 
+                                                    $current=9;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Семейный юрист
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=10" class= <?php 
+                                                    $current=10;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Жилищные споры
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=11" class= <?php 
+                                                    $current=11;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Приватизация жилья
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=12" class= <?php 
+                                                    $current=12;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Исполнительное производство
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=13" class= <?php 
+                                                    $current=13;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Оспаривание судебных решений
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
+                    </a>
+                    <a href="/services.php?i=14" class= <?php 
+                                                    $current=14;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Банкротство физических лиц в Оренбурге
                         </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
-                    <div class="serv-item-active">
-                        <div class="in-item-active">
-                            представление интересов в арбитражном суде
-                        </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
-                    <div class="serv-item">
-                        <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>                    <div class="serv-item">
-                    <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>                    <div class="serv-item">
-                    <div class="in-item">
-                            автоюрист
-                        </div>
-                    </div>
+                    </a>
+
+                    
                 </div>
                 <div class="r3-col">
                     <div class="meteor m1"></div>
                     <div class="meteor m2"></div>
-                    <div class="meteor m3"></div>
-                    <div class="meteor m4"></div>
+
                     <div class="consist">
-                    <span>Представление интересов в Арбитражном суде Оренбургской области.</span><br>
-                        <br>
-                            Адвокаты и юристы компании «ПАРТНЕР» имеют очень серьезный опыт в представлении интересов юридических лиц и индивидуальных предпринимателей в Арбитражных судах различных инстанций.
-                        <br>
-                            Мы работаем в интересах Доверителей как в г. Оренбурге, так и за пределами Оренбургской области.
-                        <br>
-                            Споры с участием хозяйствующих субъектов – коммерческих и некоммерческих организаций, индивидуальных предпринимателей, как правило, рассматриваются в Арбитражных судах.
-                        <br>
-                            Арбитражное судопроизводство осуществляется в соответствии с нормами Арбитражно – процессуального кодекса РФ.
-                        <br>
-                            В соответствии со ст. 1 АПК РФ правосудие в сфере предпринимательской и иной экономической деятельности осуществляется арбитражными судами в Российской Федерации, образованными в соответствии с КонституциейРоссийской Федерации и федеральным конституционным законом(далее - арбитражные суды), путем разрешения экономических споров и рассмотрения иных дел, отнесенных к их компетенции Арбитражным процессуальным кодексом Российской Федерации и другими федеральными законами, по правилам, установленным законодательством о судопроизводстве в арбитражных судах.
-                        <br>
-                            К подсудности Арбитражных судов относятся следующие дела:
-                        <br>
-                            - дела, возникающие из гражданских правоотношений;
-                        <br>
-                            - дела об оспаривании нормативных правовых актов, затрагивающих права и интересы заявителей в сфере предпринимательской и иной экономической деятельности;
-                        <br>
-                            - дела об оспаривании ненормативных правовых актов, решений и действий органов и должностных лиц, которыми затрагиваются права и законные интересы заявителя в сфере предпринимательской и иной экономический деятельности;
-                        <br>
-                            - дела о привлечении организаций и индивидуальных предпринимателей к административной ответственности и об оспаривании решений административных органов о привлечении к административной ответственности;
-                        <br>
-                            - дела об установлении юридических фактов;
-                        <br>
-                            - дела об оспаривании решений третейских судов и о выдаче исполнительных листов на принудительное исполнение решений третейских судов;
-                        <br>
-                            - дела о признании и приведении в исполнение решений иностранных судов и иностранных арбитражных решений;
-                        <br>
-                            - дела о несостоятельности (банкротстве);
-                        <br>
-                            - дела, возникающие из корпоративных споров;
-                        <br>
-                            - иные дела.
-                        <br>
-                            Нужно указать, что арбитражное судопроизводство несколько отличается от гражданского и административного судопроизводства.
-                    </div>                    
+                        <?php
+                        require('consist.php');
+                        ?> 
+                        <?php 
+                        $j=$i+100;
+                        echo $consist[$j];
+                        ?>
+                    
+                    </div> 
+                    <div class="meteor m3"></div>
+                    <div class="meteor m4"></div>                   
+                </div>
+
+            </div>
+        </div>
+        <div class="content services">
+            <div class="title">
+                услуги юридическим лицам
+            </div>
+            <div class="inner-large">
+                <div class="l3-col">
+                    <a href="/services.php?i=1" class= <?php 
+                                                    $current=1;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Юридическая консультация в Оренбурге
+                        </div>
+                    </a>
+                    <a href="/services.php?i=2" class= <?php 
+                                                    $current=2;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Составление искового заявления, жалоб на решения судов
+                        </div>
+                    </a>
+                    <a href="/services.php?i=3" class= <?php 
+                                                    $current=3;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class= <?php  echo "in-item".$suffix; 
+                                                    ?>>
+
+                            Представление интересов в суде
+                        </div>
+                    </a>
+                    <a href="/services.php?i=4" class= <?php 
+                                                    $current=4;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Представление интересов в государственных учреждениях
+                        </div>
+                    </a>
+                    <a href="/services.php?i=5" class= <?php 
+                                                    $current=5;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Оспаривание решений суда
+                        </div>
+                    </a>                    
+                    <a href="/services.php?i=6" class= <?php 
+                                                    $current=6;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Исполнительное производство
+                        </div>
+                    </a>
+                    <a href="/services.php?i=7" class= <?php 
+                                                    $current=7;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Сопровождение сделок с недвижимостью
+                        </div>
+                    </a>
+                    <a href="/services.php?i=8" class= <?php 
+                                                    $current=8;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Автоюрист Оренбург
+                        </div>
+                    </a>
+                    <a href="/services.php?i=9" class= <?php 
+                                                    $current=9;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Семейный юрист
+                        </div>
+                    </a>
+                    <a href="/services.php?i=10" class= <?php 
+                                                    $current=10;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Жилищные споры
+                        </div>
+                    </a>
+                    <a href="/services.php?i=11" class= <?php 
+                                                    $current=11;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Приватизация жилья
+                        </div>
+                    </a>
+                    <a href="/services.php?i=12" class= <?php 
+                                                    $current=12;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Исполнительное производство
+                        </div>
+                    </a>
+                    <a href="/services.php?i=13" class= <?php 
+                                                    $current=13;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Оспаривание судебных решений
+                        </div>
+                    </a>
+                    <a href="/services.php?i=14" class= <?php 
+                                                    $current=14;
+                                                    if($i==$current){
+                                                        $suffix="-active";
+                                                    }   else {unset($suffix);
+                                                        }
+                                                    echo "services-item".$suffix; 
+                                                    ?>>
+                        <div class=<?php  echo "in-item".$suffix; 
+                                                    ?>>
+                            Банкротство физических лиц в Оренбурге
+                        </div>
+                    </a>
+
+                    
+                </div>
+                <div class="r3-col">
+                    <div class="meteor m1"></div>
+                    <div class="meteor m2"></div>
+
+                    <div class="consist">
+                        <?php
+                        require('consist.php');
+                        ?> 
+                        <?php 
+                        $j=$i+100;
+                        echo $consist[$j];
+                        ?>
+                    
+                    </div> 
+                    <div class="meteor m3"></div>
+                    <div class="meteor m4"></div>                   
                 </div>
 
             </div>

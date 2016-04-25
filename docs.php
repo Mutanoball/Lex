@@ -54,7 +54,7 @@
                     <a href="price.php" class="button">
                         прайс
                     </a>
-                    <a href="index.php" class="button">
+                    <a href="docs.php" class="button">
                         документы
                     </a>
                     <a href="index.php" class="button">
@@ -360,8 +360,6 @@
                 <div class="r3-col">
                     <div class="meteor m1"></div>
                     <div class="meteor m2"></div>
-                    <div class="meteor m3"></div>
-                    <div class="meteor m4"></div>
                     <div class="consist">
                  
                     <?php
@@ -371,7 +369,9 @@
                     echo $consist[$i];
                     ?>
 
-                    </div>                    
+                    </div>
+                    <div class="meteor m3"></div>
+                    <div class="meteor m4"></div>                    
                 </div>
 
             </div>
