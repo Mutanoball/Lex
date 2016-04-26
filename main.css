@@ -149,6 +149,17 @@ a:hover{
 	padding-top: 12px;
 	padding-bottom: 0px;
 	font-family: GloberBook;
+	
+}
+.title1, .title2, .inner1, .inner2{
+	width:50%;
+	float: left;
+}
+.inner1{
+	padding-right:150px;
+}
+.inner2{
+	padding-left: 150px;
 }
 .inner{
 	margin: 50px auto;
@@ -157,7 +168,19 @@ a:hover{
 	white-space: normal;
 	display:flex;
 }
-
+.about, .map {
+	width: 90%
+}
+.inner4{
+	padding-left: 20px;
+	width: 25%;
+}
+#map{
+	width: 75%;
+	height: 500px;
+	border: 2px solid #b6a48b;
+	
+}
 
 .ground{
 	color:white;
