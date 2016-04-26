@@ -146,8 +146,8 @@
             }); 
             
             myPlacemark = new ymaps.Placemark([51.763598, 55.098926], {
-                hintContent: 'Москва!',
-                balloonContent: 'Столица России'
+                hintContent: 'Lex Fori',
+                
             });
             
             myMap.geoObjects.add(myPlacemark);
