@@ -35,7 +35,7 @@ margin: 0;
 padding: 0;
 font-family: GloberRegular;
 background-color: #f0f0e8;
-color:#3c301f;
+color:#fff;
 white-space: nowrap;
 }
 a{
@@ -395,6 +395,24 @@ a:hover{
 	letter-spacing: 1px;
 	padding-bottom: 0;
 }
-#name{
+#name, #password, #submit{
 	width:calc(100% - 4px);
+	font-family: DaxlinePro-Regular;
+	height:25px;
+
+}
+#question{
+	width:calc(100% - 6px);
+	font-family: GloberBook;
+	height:300px;
+}
+#submit{
+	background-color: #b6a48b;
+	height:30px;
+	font-family: GloberBook;
+	border: none;
+	font-size: 16px;
+	color:#fff;
+	letter-spacing: 1px;
+	width:calc(100% + 1px);
 }

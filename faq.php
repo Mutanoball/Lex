@@ -66,11 +66,13 @@
                 задайте вопрос
                 </div>           
                 <form action="handler.php" method="post">
-                <p><input id='name' type="text" size="30" placeholder="Имя" name="login"></p>
+                <p><input id='name' type="text" size="30" placeholder="введите Ваше имя" name="login"></p>
                 <p class="emptywarning"></p>
-                <p><input id='password' type="password" size="30" placeholder="Пароль" name="password"></p>
+                <p><input id='password' type="text" size="30" placeholder="введите адрес электронной почты" name="password"></p>
                 <p class="emptywarning"></p>
-                <p><input type="submit"  value="Войти"></p>    
+                <p><textarea id='question' cols="30" rows="30" placeholder="задайте вопрос здесь" maxlength="1000" name="question"></textarea></p>
+                <p class="emptywarning"></p>
+                <p><input id="submit" type="submit" value="отправить"></p>    
                 </form>
             </div>
         </div>
