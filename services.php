@@ -56,7 +56,7 @@
                     <a href="docs.php" class="button">
                         документы
                     </a>
-                    <a href="index.php" class="button">
+                    <a href="faq.php" class="button">
                         вопрос-ответ
                     </a>
                 </div>    
